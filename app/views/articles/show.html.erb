@@ -1,0 +1,17 @@
+<div class="container">
+  <section class="module parallax small-header article-header">
+    <div class="container reveal">
+      <h1 class="article-title"><%= @article.title %></h1>
+    </div>
+  </section>
+
+  <section class="article module content">
+    <h2><%= @article.title %></h2>
+    <p><%= @article.text %></p>
+
+    <%= link_to 'Edit', edit_article_path(@article) %>
+    <%= link_to 'Destroy', article_path(@article),
+            method: :delete,
+            data: { confirm: 'Are you sure?' } %>
+  </section>
+</div>

@@ -1,0 +1,126 @@
+@import "partials/_fonts.scss";
+@import "partials/_colors.scss";
+@import "partials/_navbar.scss";
+@import "partials/_footer.scss";
+@import "home.scss";
+@import "articles.scss";
+@import "about.scss";
+@import "blog.scss";
+@import "contact.scss";
+
+body {
+  margin-top: 0px;
+
+  /****** TEXT *********/
+  h1 {
+    font-size: 106px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 100px !important;
+    padding-bottom: 20px;
+    color: white;
+  }
+  h2 {
+    font-family: 'butler-light';
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+  }
+  h3 {
+    font-family: 'butler-light';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: $gold;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+  }
+  h4 {
+    font-size: 50px;
+    font-family: 'butler-light';
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  a {
+    color: $gold;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  /****** CONTAINERS *********/
+  .body-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1
+  }
+  .container {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+  }
+  .flex-container {
+    width: 100vw;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  /****** HEADERS *********/
+  section.module.parallax {
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .large-header {
+    height: 100vh;
+    h1 {
+      color: white;
+      font-family: 'Lato', sans-serif;
+    }
+    h2 {
+      color: $gold;
+      font-family: 'butler-light';
+    }
+  }
+  .medium-header {
+    height: 70vh;
+    h1 {
+      color: $gold;
+      font-family: 'butler-light';
+    }
+  }
+  .small-header {
+    height: 10vh;
+    h1 {
+      color: $gold;
+      font-family: 'butler-light';
+    }
+  }
+  section.module {
+    width: 100vw;
+  }
+  section.module.content {
+    h2 {
+      color: black;
+    }
+    p {
+      margin-bottom: 40px;
+      font-size: 25px;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+    padding: 15vh 30vw 10vh 30vw;
+    text-align: center;
+  }
+
+}

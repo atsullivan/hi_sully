@@ -1,0 +1,44 @@
+.navbar {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  .navbar-brand {
+    font-family: 'butler-regular';
+    text-transform: uppercase;
+    font-size: 40px;
+    color: $gold;
+    -webkit-transition: all $transition-time ease;
+    -moz-transition: all $transition-time ease;
+    -ms-transition: all $transition-time ease;
+    -o-transition: all $transition-time ease;
+    transition: all $transition-time ease;
+    &:hover {
+      color: white;
+    }
+  }
+  .navbar-nav {
+    position: absolute;
+    right: 0;
+  }
+  a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 15px;
+
+    -webkit-transition: all $transition-time ease;
+    -moz-transition: all $transition-time ease;
+    -ms-transition: all $transition-time ease;
+    -o-transition: all $transition-time ease;
+    transition: all $transition-time ease;
+    &:hover {
+      color: $gold;
+    }
+  }
+}
