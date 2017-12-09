@@ -1,0 +1,11 @@
+$transition-time: 500ms;
+
+/****** COLORS *********/
+$dark-gray: #1B1F21;
+$gold: #B98D49;
+
+/****** GRADIENT *********/
+$gradient_level: 0.6;
+$primary-transparent-color: rgba(27,183,168, $gradient_level);
+$secondary-transparent-color: rgba(217,45,137, $gradient_level);
+$gradient: linear-gradient(315deg, $secondary-transparent-color, $primary-transparent-color);

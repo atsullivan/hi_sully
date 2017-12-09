@@ -1,0 +1,37 @@
+<div class="container">
+  <section class="module parallax medium-header blog-header">
+    <div class="container reveal">
+      <h1>Blog</h1>
+    </div>
+  </section>
+
+  <section class="cards">
+    <div class="flex-container reveal">
+      <div class="card title-card">
+        <img class="card-img-top" src="/assets/space.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">
+            <%= @articles.first.title %>
+          </h4>
+          <p class="card-text"><%= "#{@articles.first.text[0..50]}..." %></p>
+          <%= link_to 'Read Article', article_path(@articles.first) %>
+        </div>
+      </div>
+
+      <% @articles.each do |article| %>
+        <div class="card small-card reveal">
+          <img class="card-img-top" src="/assets/work.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">
+              <%= article.title %>
+            </h4>
+            <p class="card-text"><%= "#{article.text[0..50]}..." %></p>
+            <%= link_to 'Read Article', article_path(article) %>
+          </div>
+        </div>
+      <% end %>
+    </class>
+  </section>
+</div>
+
+<%= link_to 'New article', new_article_path %>

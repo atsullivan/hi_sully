@@ -1,0 +1,20 @@
+<% social_media_links = [
+    {fa_tag: "github-alt", url: "https://github.com/atsullivan"},
+    {fa_tag: "instagram", url: "https://www.instagram.com/hi.sully/"},
+    {fa_tag: "linkedin", url: "https://www.linkedin.com/in/andrewsullivan2/"},
+    {fa_tag: "medium", url: "https://medium.com/@andrewsullivan_95244"},
+    {fa_tag: "pinterest-p", url: "https://www.pinterest.com/andrewwwwwwwwww/"}
+  ] %>
+
+<section class="module footer">
+  <div class="container reveal">
+    <h3>Stay Connected</h3>
+    <div class="flex-container">
+      <% social_media_links.each do |social_media_hash| %>
+        <a href="<%= social_media_hash[:url] %>" target="_blank">
+          <i class="fa fa-<%= social_media_hash[:fa_tag] %>" aria-hidden="true"></i>
+        </a>
+      <% end %>
+  </div>
+  </div>
+</section>
