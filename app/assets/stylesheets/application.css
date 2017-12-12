@@ -162,6 +162,8 @@ section.map .map-header {
   margin-bottom: 10px; }
 section.map p {
   color: #B98D49; }
+section.map a:hover {
+  color: white; }
 
 body {
   margin-top: 0px;

@@ -206,7 +206,7 @@ function initMap() {
   );
   var contentString = '<div id="content">'+
                         '<div id="bodyContent">'+
-                          '<p class="map-header">Procore Technologies</p>'+
+                          '<a href="https://www.procore.com/about/" target="_blank"><p class="map-header">Procore Technologies</p></a>'+
                           '<p>6309 Carpinteria Ave, Carpinteria, CA 93013'
                         '</div>'+
                       '</div>';
@@ -217,7 +217,9 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
     center: uluru,
-    disableDefaultUI: true
+    disableDefaultUI: true,
+    scrollwheel: false,
+    draggable: false
   });
   map.mapTypes.set('styled_map', styledMapType);
      map.setMapTypeId('styled_map');
