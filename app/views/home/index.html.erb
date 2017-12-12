@@ -1,26 +1,32 @@
-<div class="container">
-  <section class="module parallax large-header home-header">
-    <div class="container reveal">
-      <h1>Hi, I'm Sully</h1>
-      <h2>Coder & Designer</h2>
-    </div>
-  </section>
+<% page_title = "Home" %>
+<%= render 'navbar', active_tab: page_title %>
 
-  <% interests = [
-      "Design beautiful interfaces.",
-      "Write understandable and maintainable code.",
-      "Improve everyday."
-    ] %>
-  <section class="module home">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 offset-md-4">
-          <h2 class="reveal">I like to</h2>
-          <% interests.each do |interest| %>
-            <p class="reveal"><%= interest %></p>
-          <% end %>
+<div class="body-wrapper">
+  <div class="container">
+    <section class="module parallax large-header home-header">
+      <div class="container reveal">
+        <h1>Hi, I'm Sully</h1>
+        <h2>Coder & Designer</h2>
+      </div>
+    </section>
+
+    <% interests = [
+        "Design beautiful interfaces.",
+        "Write understandable and maintainable code.",
+        "Improve everyday."
+      ] %>
+    <section class="module home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-4">
+            <h2 class="reveal">I like to</h2>
+            <% interests.each do |interest| %>
+              <p class="reveal"><%= interest %></p>
+            <% end %>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
+  <%= render 'footer' %>
 </div>

@@ -8,7 +8,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <% links_hash.each do |title, link| %>
-        <a class="nav-item nav-link" href="<%= link %>"><%= title %></a>
+        <a class="nav-item nav-link <%= "active" if title == active_tab %>" href="<%= link %>"><%= title %></a>
       <% end %>
     </div>
   </div>

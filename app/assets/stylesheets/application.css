@@ -48,6 +48,8 @@
     transition: all 500ms ease; }
     .navbar a.nav-link:hover {
       color: #B98D49; }
+  .navbar a.active {
+    color: #B98D49; }
 
 .footer {
   margin-right: 0px;
@@ -113,8 +115,11 @@ section.about {
     margin-top: 30px; }
 
 .blog-header {
-  background: url("/assets/paper.jpg");
+  background: url("/assets/space.jpg");
   background-size: cover; }
+  .blog-header .container h1 {
+    color: #B98D49;
+    font-family: 'butler-light'; }
 
 section.cards {
   margin-top: 100px;

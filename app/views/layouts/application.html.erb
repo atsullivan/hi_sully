@@ -9,11 +9,7 @@
   </head>
 
   <body>
-    <%= render 'navbar' %>
-    <div class="body-wrapper">
-      <%= yield %>
-      <%= render 'footer' %>
-    </div>
+    <%= yield %>
   </body>
 
   <%= javascript_include_tag('parallax.js') %>

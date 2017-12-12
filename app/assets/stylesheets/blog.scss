@@ -1,6 +1,10 @@
 .blog-header {
-  background: url('/assets/paper.jpg');
+  background: url('/assets/space.jpg');
   background-size:cover;
+  .container h1 {
+    color: $gold;
+    font-family: 'butler-light';
+  }
 }
 section.cards {
   margin-top: 100px;

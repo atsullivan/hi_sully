@@ -1,22 +1,30 @@
-<section class="module parallax large-header about-header">
-  <div class="container reveal">
-    <h1>About</h1>
-  </div>
-</section>
+<% page_title = "About" %>
+<%= render 'navbar', active_tab: page_title %>
 
-<section class="about">
-  <div class="flex-container reveal">
-    <!-- <h2>test</h2> -->
-    <p>
-      My name is Andrew Sullivan, but everyone calls me Sully.
-      I graduated from Loyla Marymount University in 2015 with Bachelor's degree in Computer Science.
-      2 months later I married my high school sweet heart, Hilary.
-      We now live in Ojai California with our two beautiful baby girls.
-    </p>
+<div class="body-wrapper">
 
-    <p>
-      I currently work as a Backend Ruby on Rails Engineer at Procore Technologies in the beautiful Carpinteria California.
-      I have a passion for Object Oriented Programming as well of User Interface Design.
-    </p>
-  </div>
-</section>
+  <section class="module parallax large-header about-header">
+    <div class="container reveal">
+      <h1><%= page_title %></h1>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="flex-container reveal">
+      <!-- <h2>test</h2> -->
+      <p>
+        My name is Andrew Sullivan, but everyone calls me Sully.
+        I graduated from Loyla Marymount University in 2015 with Bachelor's degree in Computer Science.
+        2 months later I married my high school sweet heart, Hilary.
+        We now live in Ojai California with our two beautiful baby girls.
+      </p>
+
+      <p>
+        I currently work as a Backend Ruby on Rails Engineer at Procore Technologies in the beautiful Carpinteria California.
+        I have a passion for Object Oriented Programming as well of User Interface Design.
+      </p>
+    </div>
+  </section>
+
+  <%= render 'footer' %>
+</div>

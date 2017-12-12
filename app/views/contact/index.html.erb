@@ -1,23 +1,29 @@
-<section class="module parallax large-header contact-header">
-  <div class="container reveal">
-    <h1>Contact</h1>
-  </div>
-</section>
+<% page_title = "Contact" %>
+<%= render 'navbar', active_tab: page_title %>
 
-<section class="contact">
-  <div class="flex-container reveal">
-    <h2>Want to get in touch?  Shoot me an email.</h2>
-    <p>andrew.sullivan@procore.com</p>
-  </div>
-</section>
+<div class="body-wrapper">
+  <section class="module parallax large-header contact-header">
+    <div class="container reveal">
+      <h1><%= page_title %></h1>
+    </div>
+  </section>
 
-<section class="map">
-  <div class="container reveal">
-    <div id="map"></div>
-  </div>
-</section>
+  <section class="contact">
+    <div class="flex-container reveal">
+      <h2>Want to get in touch?  Shoot me an email.</h2>
+      <p>andrew.sullivan@procore.com</p>
+    </div>
+  </section>
 
-<%= javascript_include_tag('google_map.js') %>
-<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoXPbrDEnaW4B-6S8nUyv8zOsG6qc94ZQ&callback=initMap">
-</script>
+  <section class="map">
+    <div class="container reveal">
+      <div id="map"></div>
+    </div>
+  </section>
+
+  <%= javascript_include_tag('google_map.js') %>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoXPbrDEnaW4B-6S8nUyv8zOsG6qc94ZQ&callback=initMap">
+  </script>
+  <%= render 'footer' %>
+</div>
