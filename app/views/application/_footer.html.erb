@@ -9,12 +9,17 @@
 <section class="module footer">
   <div class="container reveal">
     <h3>Stay Connected</h3>
+  </div>
+  <div class="container reveal">
     <div class="flex-container">
       <% social_media_links.each do |social_media_hash| %>
         <a href="<%= social_media_hash[:url] %>" target="_blank">
           <i class="fa fa-<%= social_media_hash[:fa_tag] %>" aria-hidden="true"></i>
         </a>
       <% end %>
+    </div>
   </div>
+  <div class="container reveal">
+    <h4>Deployed with <a href="https://github.com/">GitHub</a> - Hosted on <a href="https://www.heroku.com/">Heroku</a><span class="barcode-text">hisully</span></h4>
   </div>
 </section>

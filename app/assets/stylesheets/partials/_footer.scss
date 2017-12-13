@@ -1,8 +1,8 @@
-.footer {
+section.module.footer {
   margin-right: 0px;
   text-align: center;
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
   background-color: $dark-gray;
   .fa {
     color: white;
@@ -20,10 +20,40 @@
     }
   }
   .flex-container {
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 80px;
   }
 
   .container {
     max-width: 100vw;
+  }
+
+  .barcode-text {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:gray;
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+  a {
+    color: inherit;
+    font-weight: inherit;
+    -webkit-transition: all $transition-time ease;
+    -moz-transition: all $transition-time ease;
+    -ms-transition: all $transition-time ease;
+    -o-transition: all $transition-time ease;
+    transition: all $transition-time ease;
+    &:hover {
+      color: $gold;
+      text-decoration: none;
+    }
   }
 }
