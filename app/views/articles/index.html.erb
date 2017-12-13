@@ -12,28 +12,9 @@
     <section class="cards">
       <div class="flex-container reveal">
         <% if @articles.any? %>
-          <div class="card title-card">
-            <img class="card-img-top" src="/assets/space.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">
-                <%= @articles.first.title %>
-              </h4>
-              <p class="card-text"><%= "#{@articles.first.text[0..50]}..." %></p>
-              <%= link_to 'Read Article', article_path(@articles.first) %>
-            </div>
-          </div>
-
-          <% @articles.each do |article| %>
-            <div class="card small-card reveal">
-              <img class="card-img-top" src="/assets/work.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">
-                  <%= article.title %>
-                </h4>
-                <p class="card-text"><%= "#{article.text[0..50]}..." %></p>
-                <%= link_to 'Read Article', article_path(article) %>
-              </div>
-            </div>
+          <%= render 'large_card', article: @articles.first %>
+          <% @articles[1..-1].each do |article| %>
+            <%= render 'small_card', article: article %>
           <% end %>
         <% else %>
           <h2>No Blog Posts</h2>
