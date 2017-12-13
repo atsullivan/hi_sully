@@ -1,12 +1,14 @@
-// Place all the styles related to the Articles controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-.article-header {
-  background: url('/assets/space.jpg');
+section.article-header {
+  background: url('/assets/paper.jpg');
   background-size:cover;
+  .article-title {
+    text-transform: lowercase;
+    text-transform: capitalize;
+  }
 }
 
-.article-title {
-  text-transform: lowercase;
-  text-transform: capitalize;
+section.content {
+  p {
+    text-align: left;
+  }
 }

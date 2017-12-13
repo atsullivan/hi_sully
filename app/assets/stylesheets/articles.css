@@ -1,9 +1,11 @@
-.article-header {
-  background: url("/assets/space.jpg");
+section.article-header {
+  background: url("/assets/paper.jpg");
   background-size: cover; }
+  section.article-header .article-title {
+    text-transform: lowercase;
+    text-transform: capitalize; }
 
-.article-title {
-  text-transform: lowercase;
-  text-transform: capitalize; }
+section.content p {
+  text-align: left; }
 
 /*# sourceMappingURL=articles.css.map */

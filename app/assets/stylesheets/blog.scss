@@ -10,20 +10,3 @@ section.cards {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.card {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  a {
-    margin-top: -5px;
-    text-decoration: none !important;
-    &:hover {
-      color: $gold;
-    }
-  }
-}
-.small-card {
-  width: 20rem;
-}
-.title-card {
-  width: 100vw;
-}

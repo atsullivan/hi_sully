@@ -75,6 +75,21 @@
   .footer .container {
     max-width: 100vw; }
 
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .card a {
+    margin-top: -5px;
+    text-decoration: none !important; }
+    .card a:hover {
+      color: #B98D49; }
+
+.small-card {
+  width: 20rem; }
+
+.large-card {
+  width: 100vw; }
+
 .home-header {
   background: url("/assets/plant.jpg");
   background-size: cover; }
@@ -90,13 +105,15 @@ section.home {
     font-weight: 300;
     letter-spacing: 1px; }
 
-.article-header {
-  background: url("/assets/space.jpg");
+section.article-header {
+  background: url("/assets/paper.jpg");
   background-size: cover; }
+  section.article-header .article-title {
+    text-transform: lowercase;
+    text-transform: capitalize; }
 
-.article-title {
-  text-transform: lowercase;
-  text-transform: capitalize; }
+section.content p {
+  text-align: left; }
 
 .about-header {
   background: url("/assets/family1.jpg");
@@ -124,21 +141,6 @@ section.about {
 section.cards {
   margin-top: 100px;
   margin-bottom: 100px; }
-
-.card {
-  margin-top: 50px;
-  margin-bottom: 50px; }
-  .card a {
-    margin-top: -5px;
-    text-decoration: none !important; }
-    .card a:hover {
-      color: #B98D49; }
-
-.small-card {
-  width: 20rem; }
-
-.title-card {
-  width: 100vw; }
 
 .contact-header {
   background: url("/assets/work.jpg");

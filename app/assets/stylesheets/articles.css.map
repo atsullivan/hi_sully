@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGA,eAAgB;EACd,UAAU,EAAE,wBAAwB;EACpC,eAAe,EAAC,KAAK;;AAGvB,cAAe;EACb,cAAc,EAAE,SAAS;EACzB,cAAc,EAAE,UAAU",
+"mappings": "AAAA,sBAAuB;EACrB,UAAU,EAAE,wBAAwB;EACpC,eAAe,EAAC,KAAK;EACrB,qCAAe;IACb,cAAc,EAAE,SAAS;IACzB,cAAc,EAAE,UAAU;;AAK5B,iBAAE;EACA,UAAU,EAAE,IAAI",
 "sources": ["articles.scss"],
 "names": [],
 "file": "articles.css"
