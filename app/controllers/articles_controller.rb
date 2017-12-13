@@ -5,6 +5,7 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
+    @paragraphs = FormattedInput.new(@article.text).text
   end
 
   def new

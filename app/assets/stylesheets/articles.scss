@@ -7,8 +7,13 @@ section.article-header {
   }
 }
 
-section.content {
+section.article-content {
+  padding: 20vh 20vw 20vh 20vw;
   p {
     text-align: left;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
   }
 }
