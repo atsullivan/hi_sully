@@ -51,6 +51,45 @@
   .navbar a.active {
     color: #B98D49; }
 
+section.form {
+  margin: 100px 20vw 100px 20vw; }
+  section.form input[type=submit] {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #B98D49;
+    border-color: #B98D49;
+    letter-spacing: 3px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease; }
+    section.form input[type=submit]:hover {
+      background-color: #B98D49;
+      color: white;
+      cursor: pointer; }
+  section.form input[type=text] {
+    width: 500px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    border: 1px solid #B98D49;
+    border-radius: 4px; }
+  section.form textarea {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    border: 1px solid #B98D49;
+    border-radius: 4px; }
+
 section.module.footer {
   margin-right: 0px;
   text-align: center;
