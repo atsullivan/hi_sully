@@ -9,6 +9,15 @@
 @font-face {
   font-family: 'butler-light';
   src: url("../fonts/Butler_Light.otf") format("otf"); }
+@font-face {
+  font-family: 'youth-culture';
+  src: url("../fonts/youth_culture.otf") format("otf"); }
+@font-face {
+  font-family: 'cunia';
+  src: url("../fonts/Cunia.ttf") format("truetype"); }
+@font-face {
+  font-family: 'genome';
+  src: url("../fonts/Genome-Thin.otf") format("otf"); }
 /****** COLORS *********/
 /****** GRADIENT *********/
 .navbar {
@@ -34,6 +43,7 @@
     position: absolute;
     right: 0; }
   .navbar a.nav-link {
+    font-family: 'genome';
     color: white;
     text-transform: uppercase;
     margin-right: 20px;
@@ -305,7 +315,7 @@ body {
     height: 100vh; }
     body .large-header h1 {
       color: white;
-      font-family: 'Lato', sans-serif; }
+      font-family: 'cunia'; }
     body .large-header h2 {
       color: #B98D49;
       font-family: 'butler-light'; }
