@@ -173,10 +173,18 @@ section.module.footer {
   background-size: cover; }
 
 section.home {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
   section.home h2 {
-    font-style: italic; }
+    font-size: 2em;
+    font-style: italic;
+    color: #B98D49;
+    padding-bottom: 20px; }
   section.home p {
     margin-bottom: 40px;
     font-size: 25px;
