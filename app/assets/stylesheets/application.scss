@@ -17,8 +17,8 @@ body {
   h1 {
     font-size: 106px;
     line-height: 1;
-    font-weight: 700;
-    font-size: 100px !important;
+    // font-weight: 700;
+    font-size: 9em !important;
     padding-bottom: 20px;
     color: white;
   }
@@ -47,7 +47,6 @@ body {
   }
   a {
     color: $gold;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
   }
@@ -86,11 +85,13 @@ body {
   .large-header {
     height: 100vh;
     h1 {
-      color: white;
-      font-family: 'cunia';
+      color: $dark-gray;
+      // color: black;
+      font-family: 'butler-light';
     }
     h2 {
       color: $gold;
+      color: white;
       font-family: 'butler-light';
     }
   }
