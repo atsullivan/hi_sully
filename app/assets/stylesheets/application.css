@@ -10,14 +10,17 @@
   font-family: 'butler-light';
   src: url("../fonts/Butler_Light.otf") format("otf"); }
 @font-face {
-  font-family: 'youth-culture';
-  src: url("../fonts/youth_culture.otf") format("otf"); }
+  font-family: 'novar';
+  src: url("../fonts/Novar.ttf") format("truetype"); }
 @font-face {
   font-family: 'cunia';
   src: url("../fonts/Cunia.ttf") format("truetype"); }
 @font-face {
   font-family: 'genome';
   src: url("../fonts/Genome-Thin.otf") format("otf"); }
+@font-face {
+  font-family: 'thundertitanlaser';
+  src: url("../fonts/thundertitanlaser.otf") format("otf"); }
 /****** COLORS *********/
 /****** GRADIENT *********/
 .navbar {
@@ -44,7 +47,9 @@
     right: 0; }
   .navbar a.nav-link {
     font-family: 'genome';
+    font-family: 'butler-light';
     color: white;
+    color: black;
     text-transform: uppercase;
     margin-right: 20px;
     margin-left: 20px;
@@ -164,14 +169,22 @@ section.module.footer {
   width: 100vw; }
 
 .home-header {
-  background: url("/assets/plant.jpg");
+  background: url("/assets/bw3.jpg");
   background-size: cover; }
 
 section.home {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
   section.home h2 {
-    font-style: italic; }
+    font-size: 2em;
+    font-style: italic;
+    color: #B98D49;
+    padding-bottom: 20px; }
   section.home p {
     margin-bottom: 40px;
     font-size: 25px;
@@ -218,8 +231,25 @@ section.about {
     font-family: 'butler-light'; }
 
 section.cards {
+  padding: 120px 0;
   margin-top: 100px;
   margin-bottom: 100px; }
+
+.article-link {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .article-link a {
+    font-size: 4em;
+    font-family: 'butler-light';
+    color: black;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease; }
+    .article-link a:hover {
+      color: #B98D49;
+      text-decoration: none; }
 
 .contact-header {
   background: url("/assets/work.jpg");
@@ -259,8 +289,7 @@ body {
   body h1 {
     font-size: 106px;
     line-height: 1;
-    font-weight: 700;
-    font-size: 100px !important;
+    font-size: 9em !important;
     padding-bottom: 20px;
     color: white; }
   body h2 {
@@ -284,7 +313,6 @@ body {
     font-weight: 300; }
   body a {
     color: #B98D49;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 12px; }
   body .body-wrapper {
@@ -314,10 +342,11 @@ body {
   body .large-header {
     height: 100vh; }
     body .large-header h1 {
-      color: white;
-      font-family: 'cunia'; }
+      color: #1B1F21;
+      font-family: 'butler-light'; }
     body .large-header h2 {
       color: #B98D49;
+      color: white;
       font-family: 'butler-light'; }
   body .medium-header {
     height: 70vh; }

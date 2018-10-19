@@ -1,11 +1,21 @@
 .home-header {
-  background: url('/assets/plant.jpg');
+  background: url('/assets/bw3.jpg');
   background-size:cover;
 }
 
 section.home {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   h2 {
+    font-size: 2em;
     font-style: italic;
+    color: $gold;
+    padding-bottom: 20px;
   }
   p {
     margin-bottom: 40px;
@@ -13,6 +23,4 @@ section.home {
     font-weight: 300;
     letter-spacing: 1px;
   }
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
