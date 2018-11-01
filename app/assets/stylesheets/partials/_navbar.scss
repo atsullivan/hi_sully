@@ -1,12 +1,14 @@
 .navbar {
-  margin-right: 20px;
-  margin-left: 20px;
+  // margin-right: 20px;
+  // margin-left: 20px;
   background-color: transparent;
+  background-color: black;
   position: absolute;
   top: 0;
   left: 0;
   .navbar-brand {
     font-family: 'butler-regular';
+    font-family: 'thundertitanlaser';
     text-transform: uppercase;
     font-size: 40px;
     color: $gold;
@@ -28,7 +30,6 @@
       font-family: 'genome';
       font-family: 'butler-light';
       color: white;
-      color: black;
       text-transform: uppercase;
       margin-right: 20px;
       margin-left: 20px;

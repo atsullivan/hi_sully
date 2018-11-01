@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# To make sass changes
+sass --watch application.scss:application.css

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
 @font-face {
-  font-family: 'fuji_quake_zone-webfont';
-  src: url('../fonts/fuji_quake_zone-webfont.ttf') format('truetype');
+  font-family: 'fuji';
+  src: url('../fonts/fuji.ttf') format('truetype');
 }
 @font-face {
   font-family: 'butler-regular';
@@ -11,10 +12,6 @@
 @font-face {
   font-family: 'butler-light';
   src: url('../fonts/Butler_Light.otf') format('otf');
-}
-@font-face {
-  font-family: 'novar';
-  src: url('../fonts/Novar.ttf') format('truetype');
 }
 @font-face {
   font-family: 'cunia';
@@ -27,4 +24,8 @@
 @font-face {
   font-family: 'thundertitanlaser';
   src: url('../fonts/thundertitanlaser.otf') format('otf');
+}
+@font-face {
+  font-family: 'againts';
+  src: url('../fonts/againts.otf') format('otf')
 }

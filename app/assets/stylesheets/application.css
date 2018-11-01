@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,900");
 @import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text");
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
 @font-face {
-  font-family: 'fuji_quake_zone-webfont';
-  src: url("../fonts/fuji_quake_zone-webfont.ttf") format("truetype"); }
+  font-family: 'fuji';
+  src: url("../fonts/fuji.ttf") format("truetype"); }
 @font-face {
   font-family: 'butler-regular';
   src: url("../fonts/Butler_Regular.otf") format("otf"); }
 @font-face {
   font-family: 'butler-light';
   src: url("../fonts/Butler_Light.otf") format("otf"); }
-@font-face {
-  font-family: 'novar';
-  src: url("../fonts/Novar.ttf") format("truetype"); }
 @font-face {
   font-family: 'cunia';
   src: url("../fonts/Cunia.ttf") format("truetype"); }
@@ -21,17 +19,20 @@
 @font-face {
   font-family: 'thundertitanlaser';
   src: url("../fonts/thundertitanlaser.otf") format("otf"); }
+@font-face {
+  font-family: 'againts';
+  src: url("../fonts/againts.otf") format("otf"); }
 /****** COLORS *********/
 /****** GRADIENT *********/
 .navbar {
-  margin-right: 20px;
-  margin-left: 20px;
   background-color: transparent;
+  background-color: black;
   position: absolute;
   top: 0;
   left: 0; }
   .navbar .navbar-brand {
     font-family: 'butler-regular';
+    font-family: 'thundertitanlaser';
     text-transform: uppercase;
     font-size: 40px;
     color: #B98D49;
@@ -49,7 +50,6 @@
     font-family: 'genome';
     font-family: 'butler-light';
     color: white;
-    color: black;
     text-transform: uppercase;
     margin-right: 20px;
     margin-left: 20px;
@@ -169,7 +169,7 @@ section.module.footer {
   width: 100vw; }
 
 .home-header {
-  background: url("/assets/bw3.jpg");
+  background: url("/assets/dark6.jpg");
   background-size: cover; }
 
 section.home {
@@ -342,8 +342,8 @@ body {
   body .large-header {
     height: 100vh; }
     body .large-header h1 {
-      color: #1B1F21;
-      font-family: 'butler-light'; }
+      color: white;
+      font-family: 'Oswald'; }
     body .large-header h2 {
       color: #B98D49;
       color: white;
