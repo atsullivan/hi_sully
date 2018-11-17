@@ -14,11 +14,6 @@
       <% @paragraphs.each do |paragraph| %>
         <p><%= paragraph %></p>
       <% end %>
-
-      <%= link_to 'Edit', edit_article_path(@article) %>
-      <%= link_to 'Destroy', article_path(@article),
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %>
     </section>
   </div>
   <%= render 'footer' %>
