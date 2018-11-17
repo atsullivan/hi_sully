@@ -9,6 +9,17 @@
   }
 }
 
+.overlay {
+  background-color: black;
+  position:relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.80;
+  -moz-opacity: 20%;
+  -webkit-opacity: 20%;
+  z-index: 2;
+}
+
 .home-header-2 {
   background: url('/assets/dark4.jpg');
   background-size:cover;
