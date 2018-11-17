@@ -28,15 +28,6 @@ body {
     margin-bottom: 30px;
     letter-spacing: 3px;
   }
-  h3 {
-    font-family: 'butler-light';
-    font-size: 20px;
-    text-transform: uppercase;
-    font-style: italic;
-    color: $gold;
-    padding-bottom: 20px;
-    letter-spacing: 3px;
-  }
   h4 {
     font-size: 50px;
     font-family: 'butler-light';
@@ -80,18 +71,19 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    text-transform: uppercase;
   }
   .large-header {
     height: 100vh;
     h1 {
       color: white;
       font-family: 'Oswald';
+      text-transform: uppercase;
     }
     h2 {
       color: $gold;
       color: white;
-      font-family: 'butler-light';
+      font-family: 'Oswald';
+      font-size: 2em;
     }
   }
   .medium-header {
