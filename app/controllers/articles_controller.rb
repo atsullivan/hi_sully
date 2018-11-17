@@ -9,4 +9,14 @@ class ArticlesController < ApplicationController
     @paragraphs = formatted_input.text
     @title = formatted_input.title
   end
+
+  def create
+    @article = Article.new(article_params)
+
+    if @article.save
+      redirect_to @article
+    else
+      render 'new'
+    end
+  end
 end
